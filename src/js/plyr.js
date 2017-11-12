@@ -11,7 +11,7 @@
     'use strict';
 
     if (typeof exports === 'object') {
-        module.exports = definition(require);
+        module.exports = definition();
     } else if (typeof define === 'function' && define.amd) {
         define(definition);
     } else {
